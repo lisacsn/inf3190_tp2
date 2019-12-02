@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>AGT | Alliance Globale du Travail | Accueil</title>
+        <link rel="stylesheet" style="text/css" href="CSS/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="CSS/Syndicat.css" >
+    </head>
+    
+    <body class="fr">
+        
+        <ul class="langues">
+            <li><a href="#">Français</a></li>
+            <li><a href="index_en.html">Anglais</a></li>
+        </ul>
+        
+        <header>
+            
+            <h1>Alliance Globale du Travail</h1>
+            
+            <img usemap="#ulogo" class="logo" src="images/logoTest.png" alt="Logo manquant">
+            <map name="ulogo">
+                <area shape="default" href="index.html">
+            </map>
+            <img class="banniere" src="images/image3.jpg">
+            
+            <h2>On en a marre!</h2>
+            <nav>
+            <ul class="n1">
+                <li> <a href="revendications.html">Revendications</a>
+                <ul class="n2">
+                    <li> <a href="salaire.html">Salaire</a></li>
+                    <li> <a href="chargeTravail.html">Charge de travail</a></li>
+                    <li><a href="conditions.html">Conditions de travail</a></li>
+                </ul></li>
+                <li> <a href="nego.html">Négociations</a></li>
+                <li> <a href="publi.html">Publications</a></li>
+                <li><a href="connexion.html">Connexion</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+            </nav>
+        </header>
+        
+        
+        <div class="box">
+            
+            <div class="">
+            <form name="lieux" method="post" action="PHP/form-membres.php" enctype="multipart/form-data">
+                <fieldset class="form-group">
+                    <legend>S'enregistrer en tant que nouveau membre</legend>
+                    <div class="form-group">
+                        <label for="prenom">Prénom : </label>
+                        <input type="text" name="prenom" id="prenom" required="required" maxlength="25">
+                    </div>
+                    <div class="form-group">
+                        <label for="nom">Nom : </label>
+                        <input type="text" name="nom" id="nom" required="required" maxlength="25">
+                    </div>
+                    <div class="form-group">
+                        <label for="datenaissance">Date de naissance :</label>
+                        <input type="date" name="datenaissance" id="datenaissance" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="photo">Photo du membre : </label>
+                        <input type="file" name="photo" id="photo">
+                    </div>
+                    
+                    <label>Fonction :</label>
+                    <div class="form-check">
+		                  <input class="form-check-input" type="radio" name="fonction" id="catC" value="CADRE">
+		                  <label class="form-check-label" for="catC">Cadre</label>
+		          </div>
+		          <div class="form-check">
+		                  <input class="form-check-input" type="radio" name="fonction" value="DELEGUE" id="catD">
+		                  <label class="form-check-label" for="catD">Délégué</label>
+		          </div>
+                  <div class="form-check">
+                          <input class="form-check-input" type="radio" name="fonction" id="catM" value="MEMBRE">
+		                  <label class="form-check-label" for="catM">Membre</label>
+		          </div>
+                    
+                </fieldset>
+                <input type="reset" value="Annuler" class="btn btn-danger" name="annuler">
+                <input type="submit" value="Soumettre" name="submit" class="btn btn-primary">
+            </form>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Ce site a été développé dans le cadre du cours <a href="http://www.etudier.uqam.ca/cours?sigle=INF3190" target="_blank">INF3190</a> de l'<a href="https://uqam.ca/">UQAM</a>.</p>
+            <p><a href="mailto:casino.lisa@courrier.uqam.ca">Lisa Casino</a> - <a href="mailto:maillard.leopold@courrier.uqam.ca">Léopold Maillard</a></p>
+        </footer>
+        
+    </body>
+    
+</html>
