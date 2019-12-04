@@ -8,8 +8,11 @@ if(isset($_POST['submit']))
                                                                //la région ou le navigateur.
     $infoPhoto = $_FILES["photo"];
     $nomPhoto = $infoPhoto['name'];
+    $tmpFile=$infoPhoto['tmp_name'];
     $saveDir = "images";
     $path = "$saveDir"."/$nomPhoto";
+    
+    move_uploaded_file("$tmpFile","$path");
     
     $database->insert('membres',[
         'prenom'=>$_POST['prenom'],
