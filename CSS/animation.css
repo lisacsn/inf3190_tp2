@@ -1,0 +1,91 @@
+div.conteneur{
+    position: relative;
+    height: 350px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+div.anime{
+    top: 30px;
+    left: 100px;
+    position: absolute;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+div.animeBD{
+    animation-name: animationBD;
+    animation-duration: 2s;
+}
+
+@keyframes animationBD{
+    from { 
+        left: 300px;
+        top : 200px;
+        transform: scale(0) rotate(360deg);
+        visibility: visible;
+    }
+    to {
+        transform: scale(1) rotate(-360deg);
+        visibility: visible;
+    }
+}
+
+div.animeHD{
+    animation-name: animationHD;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+
+@keyframes animationHD{
+    from { 
+        left:300px;
+        bottom: 250px;
+        transform: scale(0) rotate(360deg);
+        visibility: visible;
+    }
+    to {
+        transform: scale(1) rotate(-360deg);
+        visibility: visible;
+    }
+}
+
+div.animeBG{
+    animation-name: animationBG;
+    animation-duration: 2s;
+    animation-delay: 4s;
+}
+
+@keyframes animationBG{
+    from { 
+        right: 350px;
+        top: 200px;
+        transform: scale(0) rotate(360deg);
+        visibility: visible;
+    }
+    to {
+        transform: scale(1) rotate(-360deg);
+        visibility: visible;
+    }
+}
+
+div.animeHG{
+    animation-name: animationHG;
+    animation-duration: 2s;
+    animation-delay: 6s;
+}
+
+@keyframes animationHG{
+    from { 
+        right: 350px;
+        bottom: 250px;
+        transform: scale(0) rotate(360deg);
+        visibility: visible;
+    }
+    to {
+        transform: scale(1) rotate(-360deg);
+        visibility: visible;
+    }
+}
