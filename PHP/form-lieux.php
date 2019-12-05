@@ -10,4 +10,6 @@ if(isset($_POST['submit']))
     ]);
 }
 
+header("Location: ../administration.html");
+
 ?>
