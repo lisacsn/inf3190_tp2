@@ -7,8 +7,10 @@
         <link rel="stylesheet" href="dist/themes/default/style.min.css" />
         <link rel="stylesheet" style="text/css" href="../CSS/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="../CSS/Syndicat.css" >
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
         <script type="text/javascript" src="../JS/jquery-3.4.1.min.js"></script>
         <script src="dist/jstree.min.js"></script>
+        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
     </head>
     
     <body class="fr">
