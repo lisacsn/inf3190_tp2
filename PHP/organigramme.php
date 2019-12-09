@@ -24,4 +24,4 @@ $tabfinal = $tabfinal . ']';
     });
 </script>
 
- <button id="dismiss">Masquer</button>
+ <button id="dismiss" class="btn btn-secondary btn-lg btn-block">Masquer</button>
