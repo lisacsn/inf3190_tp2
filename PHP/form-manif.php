@@ -13,7 +13,7 @@ $idMembre = $database->select('membres',
 
 ?>
 
-<form name="lieux" method="post" action="form-manif-post.php">
+<form name="lieux" method="post" action="form-manif-post.php" style="padding: 2%">
     <fieldset class="form-group">
         <legend>Entrez les informations pour une nouvelle manifestation</legend>
         

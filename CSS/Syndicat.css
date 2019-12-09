@@ -221,6 +221,13 @@ footer p a:hover{
     text-decoration: underline;
 }
 
+.newLogo{
+    text-align: right;
+    margin-right: 3%;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
 /****************** PAGE ANGLAIS *******************/
 
 .english{
@@ -260,6 +267,7 @@ footer p a:hover{
     float: right;
     margin-right: 4%;
 }
+
 
 /***************** PUBLICATIONS ********************/
 
