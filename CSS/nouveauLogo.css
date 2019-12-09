@@ -1,0 +1,37 @@
+.futurlogo{
+    text-align: center;
+}
+
+#svg1{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+ellipse{
+    transform: rotate(-14deg);
+    stroke-width:2px;
+}
+
+.ellipse1{
+    fill : #FF6156;
+    stroke : #5F0000;
+}
+
+.ellipse2{
+    stroke : #FFC4B0;
+    fill : none;
+}
+
+text{
+    fill:#700000;
+    font-size:50px;
+    
+    -moz-transform: rotate(346deg);
+    -webkit-transform: rotate(346deg);
+    -o-transform: rotate(346deg);
+    -ms-transform: rotate(346deg);
+    transform: rotate(346deg);
+
+    border-radius: 10% / 50%;
+}
